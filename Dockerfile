@@ -11,7 +11,8 @@ RUN apt-get clean
 ENV DEBIAN_FRONTEND=dialog
 ENV PUB_HOSTED_URL=https://pub.flutter-io.cn
 ENV FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-
+ENV JAVA_HOME=/usr/bin/java
+ENV PATH "$JAVA_HOME/bin:$PATH"
 # Version of tools
 ARG GRADLE_VERSION=6.3
 ARG ANDROID_API_LEVEL=34
