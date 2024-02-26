@@ -1,6 +1,6 @@
 # flutter_web_docker
 
-New Flutter project.
+ A new Flutter project.
 
 ## Getting Started
 
